@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>GCP Bucket File Upload</title>
+	<link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+</head>
+
+<body>
+<h1>GCP Bucket File Upload </h1>
+<div class="agile-its">
+	<h2>File Upload</h2>
+	<div class="container">
+		<p>Please select the file that you want to upload.</p>
+			<div class="file-upload">
+				<form id="upload" action="/upload" method="POST" enctype="multipart/form-data">		
+						<div class="fileinfo">               
+							<input type="submit" class="choose" value="Choose file">
+                            <input type="file" name="file"  id="fileselect" name="fileselect[]" multiple="multiple" />
+                            <button type="text" class="btn btn-block send-button tx-tfm">Upload</button>                        
+						</div>
+				</form>
+			</div>
+	</div>
+</div>
+</body>
+</html>
