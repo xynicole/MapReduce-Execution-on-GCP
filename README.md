@@ -56,3 +56,8 @@ public static class MaxTempReducer
 [result file ](https://github.com/xynicole/MapReduce-Execution-on-GCP/blob/main/Docker/result)
 
 ## Extra Credit: ▪ (+20%) Build GUI to upload the two data files from your local machine to GCP bucket automatically without having 
+
+#### for my code, I removed my config json file and hide my bucket name 
+https://user-images.githubusercontent.com/42621884/142592305-724745c2-6a6b-4c09-8774-9a7ccd7924f7.mp4
+
+
