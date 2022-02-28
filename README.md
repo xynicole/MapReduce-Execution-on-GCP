@@ -1,4 +1,9 @@
 # MapReduce-Execution-on-GCP
+Create a Hadoop MapReduce application to find the maximum temperature in every day of the years 1901 and 1902.
+Your application should read the input from HDFS and store the output to HDFS.
+When your application completes, merge all the results to one file and store it on the local cluster. 
+
+
 
 ## 1. Copy of Your mapper.py code (or equivalent in another programming language) (25% of total grade)
 ```
